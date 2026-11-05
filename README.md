@@ -4,9 +4,9 @@
 ### Walk through Wireshark labs to investigate network activity logs
 
 [![Skill](https://img.shields.io/badge/Skill-Cybersecurity-red?style=for-the-badge&logo=shield&logoColor=white)](https://github.com)
-[![Ver](https://img.shields.io/badge/Ver-Virtualbox_v7.2-blue?style=for-the-badge&logo=virtualbox&logoColor=white)](https://github.com)
-[![Kali Linux](https://img.shields.io/badge/Kali_Linux-v2026.3-orange?style=for-the-badge&logo=kalilinux&logoColor=white)](https://github.com)
-[![Skill](https://img.shields.io/badge/Skill-Linux-darkgrey?style=for-the-badge&logo=linux&logoColor=white)](https://github.com)
+[![Ver](https://img.shields.io/badge/Network-Traffic-Analysis-blue?style=for-the-badge&logo=wireshark&logoColor=white)](https://github.com)
+[![Network_Basics](https://img.shields.io/badge/Network_Basics-orange?style=for-the-badge&logo=networking&logoColor=white)](https://github.com)
+[![Skill](https://img.shields.io/badge/Protocol-Analysis-darkgrey?style=for-the-badge&logo=Protocols&logoColor=white)](https://github.com)
 [![Network](https://img.shields.io/badge/Network-10.0.0.0%2F24-teal?style=for-the-badge&logo=cisco&logoColor=white)](https://github.com)
 [![Penetration Testing](https://img.shields.io/badge/Penetration_Testing-Lab-black?style=for-the-badge&logo=letsencrypt&logoColor=white)](https://github.com)
 [![Skill](https://img.shields.io/badge/Skill-Virtualization-red?style=for-the-badge&logo=vmware&logoColor=white)](https://github.com)
