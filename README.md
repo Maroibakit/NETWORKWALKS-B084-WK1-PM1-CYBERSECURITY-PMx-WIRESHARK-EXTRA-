@@ -4,7 +4,7 @@
 ### Walk through Wireshark labs to investigate network activity logs
 
 [![Skill](https://img.shields.io/badge/Skill-Cybersecurity-red?style=for-the-badge&logo=shield&logoColor=white)](https://github.com)
-[![Ver](https://img.shields.io/badge/Network-Traffic-Analysis-blue?style=for-the-badge&logo=wireshark&logoColor=white)](https://github.com)
+[![Detective](https://img.shields.io/badge/Network-Traffic-Analysis-blue?style=for-the-badge&logo=wireshark&logoColor=white)](https://github.com)
 [![Network_Basics](https://img.shields.io/badge/Network_Basics-orange?style=for-the-badge&logo=networking&logoColor=white)](https://github.com)
 [![Skill](https://img.shields.io/badge/Protocol-Analysis-darkgrey?style=for-the-badge&logo=Protocols&logoColor=white)](https://github.com)
 [![Network](https://img.shields.io/badge/Network-10.0.0.0%2F24-teal?style=for-the-badge&logo=cisco&logoColor=white)](https://github.com)
