@@ -1,13 +1,14 @@
-<div align="center">
-
 # 🦈 NETWORKWALKS-B084-WK1-PM1-CYBERSECURITY-PMx-WIRESHARK-EXTRA
 ### Walk through Wireshark labs to investigate network activity logs
 
-[![Skill](https://img.shields.io/badge/Skill-Cybersecurity-red?style=for-the-badge&logo=shield&logoColor=white)](https://github.com)
-[![Detective](https://img.shields.io/badge/Network-Traffic-Analysis-blue?style=for-the-badge&logo=wireshark&logoColor=white)](https://github.com)
-[![Network_Basics](https://img.shields.io/badge/Network_Basics-orange?style=for-the-badge&logo=networking&logoColor=white)](https://github.com)
-[![Skill](https://img.shields.io/badge/Protocol-Analysis-darkgrey?style=for-the-badge&logo=Protocols&logoColor=white)](https://github.com)
-[![NetworkWalks](https://img.shields.io/badge/NetworkWalks-orange?style=for-the-badge&logo=network-wired&logoColor=white)](https://github.com)
+[![Skill](https://shields.io)](https://github.com)
+[![Network Traffic Analysis](https://shields.io)](https://github.com)
+[![Network Basics](https://shields.io)](https://github.com)
+[![Protocol Analysis](https://shields.io)](https://github.com)
+[![Skill](https://shields.io)](https://github.com)
+[![Skill](https://shields.io)](https://github.com)
+[![Skill](https://shields.io)](https://github.com)
+[![NetworkWalks](https://shields.io)](https://github.com)
 [![Ethical Hacking](https://img.shields.io/badge/Ethical_Hacking-Practice-darkred?style=for-the-badge&logo=hackthebox&logoColor=white)](https://github.com)
 
 ---
@@ -16,18 +17,14 @@
 
 ## 🧪 Lab Investigations Breakdown
 
-### 🔬 Lab 3: HTTP Traffic Analysis & Credential Extraction
-* **Objective:** Detect unencrypted plaintext credentials transmitted across the network.
-* **Key Tasks:** Applied the `http.request.method == "POST"` filter to isolate login events and parsed the HTML form URL-encoded data payload to recover credentials.
+### 🔬 Lab 1: Session Reconstruction using Follow TCP Stream
+* **Objective:** Reassemble split packet segments back into human-readable data layouts.
+* **Key Tasks:** Selected suspicious traffic entries, executed **Follow TCP Stream** to bypass packet fragmentation boundaries, and extracted plaintext protocol transcripts.
 
-### 🕵️‍♂️ Lab 4: Detecting Malicious Port Scans
-* **Objective:** Identify reconnaissance activity targeting internal network infrastructure.
-* **Key Tasks:** Analyzed high-frequency TCP SYN packets without subsequent connections (`tcp.flags.syn == 1 and tcp.flags.ack == 0`) originating from a single host.
+### 🕵️‍♂️ Lab 2: Decrypting & Understanding HTTPS Traffic
+* **Objective:** Audit encrypted transaction payloads to trace application layer anomalies.
+* **Key Tasks:** Analyzed Client Hello/Server Hello handshake structures, loaded RSA/SSL Keylog tokens, and isolated decrypted query data inside secure browser sessions.
 
-### 🔍 Lab 5: DNS Tunneling Detection
-* **Objective:** Discover covert data exfiltration masquerading as standard domain name lookups.
-* **Key Tasks:** Filtered for unusual traffic volumes using `dns` and investigated high counts of anomalous, long-string TXT and AAAA query records.
-
-### 📦 Lab 4: Automated Malware Beaconing Activity
-* **Objective:** Track down compromised sandbox assets communicating with external Command and Control (C2) servers.
-* **Key Tasks:** Analyzed recurring, exact-interval HTT
+### 🔍 Lab 3: VoIP and SIP Protocol Diagnostics
+* **Objective:** Trace real-time communication drops and unauthorized media streams.
+* **Key Tasks:** Leveraged specialized packet filters to decode Session Initiation Protocol (SIP) handshakes and analyzed Real-time Transport Protocol (RTP) stream flows.
