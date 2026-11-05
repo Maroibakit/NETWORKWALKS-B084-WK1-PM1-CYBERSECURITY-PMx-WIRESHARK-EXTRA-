@@ -1,3 +1,5 @@
+<div align="center">
+
 # 🦈 NETWORKWALKS-B084-WK1-PM1-CYBERSECURITY-PMx-WIRESHARK-EXTRA
 ### Walk through Wireshark labs to investigate network activity logs
 
@@ -9,7 +11,7 @@
 [![Skill](https://shields.io)](https://github.com)
 [![Skill](https://shields.io)](https://github.com)
 [![NetworkWalks](https://shields.io)](https://github.com)
-[![Ethical Hacking](https://img.shields.io/badge/Ethical_Hacking-Practice-darkred?style=for-the-badge&logo=hackthebox&logoColor=white)](https://github.com)
+[![Ethical Hacking](https://shields.io)](https://github.com)
 
 ---
 
